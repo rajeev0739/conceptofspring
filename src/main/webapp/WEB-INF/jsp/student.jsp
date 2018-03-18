@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>Students Data</h1>
-<form:form action="student.do" method="POST" commandName="student">
+<form:form action="student.do" method="POST" modelAttribute="student">
 	<table>
 		<tr>
 			<td>Student ID</td>

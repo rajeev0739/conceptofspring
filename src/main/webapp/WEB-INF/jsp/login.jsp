@@ -11,7 +11,7 @@
 
 
 ${message}
-<s:form method="POST" commandName="acc" action="logins.do">
+<s:form method="POST" modelAttribute="acc" action="logins.do">
 
 	<table cellpadding="2",cellspacing="2">
 		<tr>

@@ -31,7 +31,7 @@ public class LoginController {
 	public String logout(HttpSession session) {
 		
 		session.removeAttribute("username");
-		return "redirect:login.html";
+		return "redirect:login";
 	}
 	
 	
